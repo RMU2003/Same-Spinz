@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Home Page -->
+  <url>
+    <loc>https://spinzthewheelz.com/</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/og-image.jpg</image:loc>
+      <image:title>SpinzTheWheelz - Yes/No Decision Wheel</image:title>
+    </image:image>
+  </url>
+
+  <!-- Yes No Mode -->
+  <url>
+    <loc>https://spinzthewheelz.com/?mode=yesno</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Yes No Maybe Mode -->
+  <url>
+    <loc>https://spinzthewheelz.com/?mode=yesnomaybe</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://spinzthewheelz.com/about</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://spinzthewheelz.com/privacy-policy</loc>
+    <lastmod>2025-05-22T12:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://spinzthewheelz.com/terms-of-service</loc>
+    <lastmod>2025-05-22T12:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://spinzthewheelz.com/contact</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- FAQ Page -->
+  <url>
+    <loc>https://spinzthewheelz.com/faq</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>https://spinzthewheelz.com/blog</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Example Blog Posts -->
+  <url>
+    <loc>https://spinzthewheelz.com/blog/how-to-make-better-decisions</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/blog-images/better-decisions.jpg</image:loc>
+      <image:title>How to Make Better Decisions with Random Tools</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://spinzthewheelz.com/blog/psychology-of-randomness</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/blog-images/psychology-randomness.jpg</image:loc>
+      <image:title>The Psychology of Randomness in Decision Making</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://spinzthewheelz.com/blog/yes-no-wheel-uses</loc>
+    <lastmod>2023-05-21T12:00:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/blog-images/yes-no-wheel-uses.jpg</image:loc>
+      <image:title>10 Creative Ways to Use a Yes/No Wheel in Daily Life</image:title>
+    </image:image>
+  </url>
+</urlset>

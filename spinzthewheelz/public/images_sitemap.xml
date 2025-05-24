@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://spinzthewheelz.com/</loc>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/images/yes-no-wheel-main.jpg</image:loc>
+      <image:title>SpinzTheWheelz Yes No Decision Wheel</image:title>
+      <image:caption>Interactive Yes/No decision wheel for making random choices</image:caption>
+      <image:geo_location>Online Tool</image:geo_location>
+      <image:license>https://spinzthewheelz.com/license</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/images/dark-mode-wheel.jpg</image:loc>
+      <image:title>SpinzTheWheelz in Dark Mode</image:title>
+      <image:caption>Dark mode version of the Yes/No decision wheel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/images/yes-no-maybe-wheel.jpg</image:loc>
+      <image:title>Yes/No/Maybe Decision Wheel</image:title>
+      <image:caption>Decision wheel with Yes, No, and Maybe options</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/images/customize-wheel-colors.jpg</image:loc>
+      <image:title>Customize Your Wheel Colors</image:title>
+      <image:caption>Color customization interface for the decision wheel</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://spinzthewheelz.com/blog/yes-no-wheel-guide</loc>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/blog-images/yes-no-wheel-guide.jpg</image:loc>
+      <image:title>The Ultimate Guide to Using a Yes No Decision Wheel</image:title>
+      <image:caption>Detailed guide on how to use a decision wheel effectively</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/blog-images/decision-making-psychology.jpg</image:loc>
+      <image:title>Psychology of Decision Making</image:title>
+      <image:caption>How random decisions help overcome analysis paralysis</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://spinzthewheelz.com/blog/decision-paralysis</loc>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/blog-images/decision-paralysis.jpg</image:loc>
+      <image:title>Overcoming Decision Paralysis</image:title>
+      <image:caption>Using decision wheels to overcome indecision and move forward</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://spinzthewheelz.com/about</loc>
+    <image:image>
+      <image:loc>https://spinzthewheelz.com/images/spinzthewheelz-logo.png</image:loc>
+      <image:title>SpinzTheWheelz Logo</image:title>
+      <image:caption>Official logo of SpinzTheWheelz decision wheel tool</image:caption>
+    </image:image>
+  </url>
+</urlset>

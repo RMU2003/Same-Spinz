@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "SpinzTheWheelz",
+    "heading": "Ruleta de Sí o No - Obtén Decisiones Aleatorias",
+    "description": "Decide sí o no girando la ruleta. Obtén respuestas aleatorias de sí o no para tus preguntas, supera la parálisis de decisión, y toma decisiones fácilmente."
+  },
+  "wheel": {
+    "spin": "GIRAR",
+    "spinning": "GIRANDO...",
+    "lastResult": "Último resultado:",
+    "mobileInstructions": "Desliza o toca la ruleta para girar"
+  },
+  "options": {
+    "yes": "SÍ",
+    "no": "NO",
+    "maybe": "QUIZÁS"
+  },
+  "inputs": {
+    "title": "ENTRADAS",
+    "mode": "Modo",
+    "yesNo": "Sí o No",
+    "yesNoMaybe": "Sí, No o Quizás",
+    "numSets": "Número de Conjuntos"
+  },
+  "results": {
+    "reset": "Reiniciar Resultados",
+    "share": "Compartir Resultados",
+    "viewAll": "Ver Todos los Resultados",
+    "hideAll": "Ocultar Resultados",
+    "clearAll": "Borrar Todos los Resultados",
+    "history": "Historial de Resultados",
+    "time": "Hora",
+    "result": "Resultado",
+    "noResults": "Aún no hay resultados. ¡Gira la ruleta para comenzar!"
+  },
+  "controls": {
+    "showInputs": "Mostrar Entradas",
+    "hideInputs": "Ocultar Entradas",
+    "customize": "Personalizar Colores",
+    "fullScreen": "Pantalla Completa",
+    "exitFullScreen": "Salir de Pantalla Completa",
+    "sound": "Efectos de Sonido",
+    "confetti": "Efectos de Confeti",
+    "close": "Cerrar"
+  },
+  "guide": {
+    "title": "Guía de la Ruleta de Sí o No",
+    "readFull": "Leer Guía Completa",
+    "showLess": "Mostrar Menos",
+    "preview": "Descubre cómo tomar mejores decisiones con nuestra Ruleta de Sí o No. Aprende técnicas para superar la parálisis de decisión, comprende cuándo las elecciones aleatorias son apropiadas y aprovecha al máximo esta poderosa herramienta de toma de decisiones.",
+    "readMore": "Leer la guía completa →"
+  },
+  "share": {
+    "title": "Compartir Tus Resultados",
+    "link": "Enlace para Compartir",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "via": "Compartir vía:",
+    "noResults": "Aún no hay resultados. ¡Gira la ruleta para obtener resultados que puedas compartir!"
+  },
+  "colorPicker": {
+    "title": "Personalizar Colores de la Ruleta",
+    "colorCode": "Código de color",
+    "reset": "Restablecer Valores",
+    "apply": "Aplicar Colores",
+    "options": {
+      "yes": "SÍ",
+      "no": "NO",
+      "maybe1": "QUIZÁS 1",
+      "maybe2": "QUIZÁS 2",
+      "center": "CENTRO",
+      "arrow": "FLECHA"
+    }
+  },
+  "settings": {
+    "title": "Configuración de la Ruleta",
+    "sound": "Efectos de Sonido",
+    "confetti": "Efectos de Confeti"
+  },
+  "footer": {
+    "about": "La última ruleta de decisión sí/no para ayudarte a tomar decisiones aleatorias rápida y fácilmente",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "contact": "Contacto",
+    "copyright": "© {{year}} SpinzTheWheelz. Todos los derechos reservados."
+  },
+  "meta": {
+    "language": "Español",
+    "direction": "ltr"
+  }
+}

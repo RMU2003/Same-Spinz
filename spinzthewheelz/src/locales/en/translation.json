@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "SpinzTheWheelz",
+    "heading": "Yes No Picker Wheel - Get Random Decisions",
+    "description": "Decide yes or no by spinning the wheel. Get random yes or no answers for your questions, overcome decision paralysis, and make choices easily."
+  },
+  "wheel": {
+    "spin": "SPIN",
+    "spinning": "SPINNING...",
+    "lastResult": "Last result:",
+    "mobileInstructions": "Swipe or tap on the wheel to spin"
+  },
+  "options": {
+    "yes": "YES",
+    "no": "NO",
+    "maybe": "MAYBE"
+  },
+  "inputs": {
+    "title": "INPUTS",
+    "mode": "Mode",
+    "yesNo": "Yes or No",
+    "yesNoMaybe": "Yes, No or Maybe",
+    "numSets": "Number of Input Sets"
+  },
+  "results": {
+    "reset": "Reset Results",
+    "share": "Share Results",
+    "viewAll": "View All Results",
+    "hideAll": "Hide All Results",
+    "clearAll": "Clear All Results",
+    "history": "Results History",
+    "time": "Time",
+    "result": "Result",
+    "noResults": "No results yet. Spin the wheel to start!"
+  },
+  "controls": {
+    "showInputs": "Show Inputs",
+    "hideInputs": "Hide Inputs",
+    "customize": "Customize Colors",
+    "fullScreen": "Full Screen",
+    "exitFullScreen": "Exit Full Screen",
+    "sound": "Sound Effects",
+    "confetti": "Confetti Effects",
+    "close": "Close"
+  },
+  "guide": {
+    "title": "Yes No Wheel Guide",
+    "readFull": "Read Full Guide",
+    "showLess": "Show Less",
+    "preview": "Discover how to make better decisions with our Yes No Wheel. Learn techniques to overcome decision paralysis, understand when random choices are appropriate, and make the most of this powerful decision-making tool.",
+    "readMore": "Read the full guide →"
+  },
+  "share": {
+    "title": "Share Your Results",
+    "link": "Share Link",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "via": "Share via:",
+    "noResults": "No results yet. Spin the wheel to get results you can share!"
+  },
+  "colorPicker": {
+    "title": "Customize Wheel Colors",
+    "colorCode": "Color code",
+    "reset": "Reset to Default",
+    "apply": "Apply Colors",
+    "options": {
+      "yes": "YES",
+      "no": "NO",
+      "maybe1": "MAYBE 1",
+      "maybe2": "MAYBE 2",
+      "center": "CENTER",
+      "arrow": "ARROW"
+    }
+  },
+  "settings": {
+    "title": "Wheel Settings",
+    "sound": "Sound Effects",
+    "confetti": "Confetti Effects"
+  },
+  "footer": {
+    "about": "The ultimate yes/no decision wheel to help you make random decisions quickly and easily",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "contact": "Contact",
+    "copyright": "© {{year}} SpinzTheWheelz. All rights reserved."
+  },
+  "meta": {
+    "language": "English",
+    "direction": "ltr"
+  }
+}

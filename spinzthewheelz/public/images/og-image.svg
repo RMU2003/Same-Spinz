@@ -1,0 +1,46 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="630" fill="url(#paint0_linear)" />
+
+  <!-- Wheel shadow -->
+  <circle cx="350" cy="315" r="210" fill="black" fill-opacity="0.1" />
+
+  <!-- Wheel -->
+  <circle cx="350" cy="315" r="200" fill="white" stroke="#3f00b5" stroke-width="4" />
+
+  <!-- Yes section (green) -->
+  <path d="M350 315 L350 115 A200 200 0 0 1 534.1 222.6 L350 315 Z" fill="#4fb30a" />
+  <path d="M350 315 L534.1 222.6 A200 200 0 0 1 534.1 407.4 L350 315 Z" fill="#2d6606" />
+
+  <!-- No section (red) -->
+  <path d="M350 315 L534.1 407.4 A200 200 0 0 1 350 515 L350 315 Z" fill="#4fb30a" />
+  <path d="M350 315 L350 515 A200 200 0 0 1 165.9 407.4 L350 315 Z" fill="#2d6606" />
+
+  <!-- Maybe section (yellow) if needed -->
+  <path d="M350 315 L165.9 407.4 A200 200 0 0 1 165.9 222.6 L350 315 Z" fill="#e99e0a" />
+  <path d="M350 315 L165.9 222.6 A200 200 0 0 1 350 115 L350 315 Z" fill="#c7870a" />
+
+  <!-- Wheel center -->
+  <circle cx="350" cy="315" r="40" fill="#e11d48" stroke="white" stroke-width="4" />
+  <text x="350" y="325" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">SPIN</text>
+
+  <!-- Arrow pointer -->
+  <path d="M350 85 L335 115 L365 115 Z" fill="#e11d48" />
+
+  <!-- Text content -->
+  <text x="800" y="215" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">SpinzTheWheelz</text>
+  <text x="800" y="300" font-family="Arial, sans-serif" font-size="36" font-weight="normal" fill="white" text-anchor="middle">The Ultimate Yes/No</text>
+  <text x="800" y="350" font-family="Arial, sans-serif" font-size="36" font-weight="normal" fill="white" text-anchor="middle">Decision Wheel</text>
+
+  <!-- Call to action -->
+  <rect x="650" y="400" width="300" height="80" rx="40" fill="white" />
+  <text x="800" y="450" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#3f00b5" text-anchor="middle">Make Decisions Now!</text>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f00b5" />
+      <stop offset="1" stop-color="#be00ff" />
+    </linearGradient>
+  </defs>
+</svg>

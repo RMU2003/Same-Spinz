@@ -1,0 +1,209 @@
+:root {
+  /* Light Theme */
+  --primary: #3f00b5;
+  --secondary: #be00ff;
+  --wheel-yes-color: #4fb30a;
+  --wheel-no-color: #2d6606;
+  --wheel-maybe-color-1: #e99e0a;
+  --wheel-maybe-color-2: #c7870a;
+  --wheel-center-color: #111;
+  --wheel-border-color: #fff;
+  --wheel-arrow-color: #e11d48;
+
+  --background: #f5f5f5;
+  --foreground: #333333;
+  --card-background: #ffffff;
+  --header-background: linear-gradient(135deg, #3f00b5, #be00ff);
+  --footer-background: #222222;
+  --footer-text: #ffffff;
+  --muted-text: #666666;
+  --input-background: #f0f0f0;
+  --input-border: #dddddd;
+  --input-selected: #3f00b5;
+  --button-hover: #f0f0f0;
+}
+
+/* Dark mode colors */
+[data-theme='dark'] {
+  --primary: #8e42ff;
+  --secondary: #d580ff;
+  --wheel-yes-color: #63d40e;
+  --wheel-no-color: #3d8c09;
+  --wheel-maybe-color-1: #ffb521;
+  --wheel-maybe-color-2: #e69900;
+  --wheel-center-color: #1c1c1c;
+  --wheel-border-color: #333333;
+  --wheel-arrow-color: #ff3366;
+
+  --background: #121212;
+  --foreground: #e0e0e0;
+  --card-background: #1e1e1e;
+  --header-background: linear-gradient(135deg, #5a1cc4, #c42cb7);
+  --footer-background: #121212;
+  --footer-text: #e0e0e0;
+  --muted-text: #a0a0a0;
+  --input-background: #2c2c2c;
+  --input-border: #444444;
+  --input-selected: #8e42ff;
+  --button-hover: #2c2c2c;
+}
+
+/* Global color styles for wheel sections */
+.bg-yesColor {
+  fill: var(--wheel-yes-color);
+}
+
+.bg-noColor {
+  fill: var(--wheel-no-color);
+}
+
+.bg-maybeColor1 {
+  fill: var(--wheel-maybe-color-1);
+}
+
+.bg-maybeColor2 {
+  fill: var(--wheel-maybe-color-2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wheel-container {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  aspect-ratio: 1/1;
+}
+
+.wheel {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 4s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transform: rotate(0deg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: 8px solid var(--wheel-border-color);
+}
+
+.wheel-center {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: var(--wheel-arrow-color);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 3px solid var(--wheel-border-color);
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.spinner-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 28px solid var(--wheel-arrow-color);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.button-primary {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.button-primary:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.results-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.result-box {
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  min-width: 80px;
+}
+
+.result-yes {
+  background-color: var(--wheel-yes-color);
+  color: white;
+}
+
+.result-maybe {
+  background-color: var(--wheel-maybe-color-1);
+  color: white;
+}
+
+.result-no {
+  background-color: #222;
+  color: white;
+}
+
+.inputs-container {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--foreground);
+}

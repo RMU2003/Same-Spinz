@@ -1,0 +1,37 @@
+# SpinzTheWheelz robots.txt
+# Allow all search engines to index all content
+User-agent: *
+Allow: /
+
+# Specify the sitemap location
+Sitemap: https://spinzthewheelz.com/sitemap.xml
+
+# Don't crawl admin areas or user account pages
+User-agent: *
+Disallow: /admin/
+Disallow: /account/
+Disallow: /user/
+
+# Don't crawl any URL with a query parameter
+User-agent: *
+Disallow: /*?*
+
+# Rate limiting for specific bots that might overload the server
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+# Special instructions for Google
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+
+# Special instructions for Bing
+User-agent: Bingbot
+Allow: /*.js$
+Allow: /*.css$

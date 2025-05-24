@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "SpinzTheWheelz",
+    "heading": "Ja-Nein-Entscheidungsrad - Zufällige Entscheidungen erhalten",
+    "description": "Entscheide zwischen Ja oder Nein, indem du das Rad drehst. Erhalte zufällige Ja- oder Nein-Antworten auf deine Fragen, überwinde Entscheidungslähmung und triff leicht Entscheidungen."
+  },
+  "wheel": {
+    "spin": "DREHEN",
+    "spinning": "DREHT SICH...",
+    "lastResult": "Letztes Ergebnis:",
+    "mobileInstructions": "Wische oder tippe auf das Rad, um es zu drehen"
+  },
+  "options": {
+    "yes": "JA",
+    "no": "NEIN",
+    "maybe": "VIELLEICHT"
+  },
+  "inputs": {
+    "title": "EINGABEN",
+    "mode": "Modus",
+    "yesNo": "Ja oder Nein",
+    "yesNoMaybe": "Ja, Nein oder Vielleicht",
+    "numSets": "Anzahl der Eingabesätze"
+  },
+  "results": {
+    "reset": "Ergebnisse zurücksetzen",
+    "share": "Ergebnisse teilen",
+    "viewAll": "Alle Ergebnisse anzeigen",
+    "hideAll": "Ergebnisse ausblenden",
+    "clearAll": "Alle Ergebnisse löschen",
+    "history": "Ergebnisverlauf",
+    "time": "Zeit",
+    "result": "Ergebnis",
+    "noResults": "Noch keine Ergebnisse. Drehe das Rad, um zu beginnen!"
+  },
+  "controls": {
+    "showInputs": "Eingaben anzeigen",
+    "hideInputs": "Eingaben ausblenden",
+    "customize": "Farben anpassen",
+    "fullScreen": "Vollbild",
+    "exitFullScreen": "Vollbild beenden",
+    "sound": "Soundeffekte",
+    "confetti": "Konfettieffekte",
+    "close": "Schließen"
+  },
+  "guide": {
+    "title": "Anleitung zum Ja-Nein-Rad",
+    "readFull": "Vollständige Anleitung lesen",
+    "showLess": "Weniger anzeigen",
+    "preview": "Entdecke, wie du mit unserem Ja-Nein-Rad bessere Entscheidungen treffen kannst. Lerne Techniken zur Überwindung von Entscheidungslähmung, verstehe, wann zufällige Entscheidungen angemessen sind und nutze dieses leistungsstarke Entscheidungswerkzeug optimal.",
+    "readMore": "Vollständige Anleitung lesen →"
+  },
+  "share": {
+    "title": "Teile deine Ergebnisse",
+    "link": "Link zum Teilen",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "via": "Teilen über:",
+    "noResults": "Noch keine Ergebnisse. Drehe das Rad, um Ergebnisse zu erhalten, die du teilen kannst!"
+  },
+  "colorPicker": {
+    "title": "Radfarben anpassen",
+    "colorCode": "Farbcode",
+    "reset": "Zurücksetzen",
+    "apply": "Farben anwenden",
+    "options": {
+      "yes": "JA",
+      "no": "NEIN",
+      "maybe1": "VIELLEICHT 1",
+      "maybe2": "VIELLEICHT 2",
+      "center": "MITTE",
+      "arrow": "PFEIL"
+    }
+  },
+  "settings": {
+    "title": "Radeinstellungen",
+    "sound": "Soundeffekte",
+    "confetti": "Konfettieffekte"
+  },
+  "footer": {
+    "about": "Das ultimative Ja/Nein-Entscheidungsrad, das dir hilft, schnell und einfach zufällige Entscheidungen zu treffen",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "copyright": "© {{year}} SpinzTheWheelz. Alle Rechte vorbehalten."
+  },
+  "meta": {
+    "language": "Deutsch",
+    "direction": "ltr"
+  }
+}

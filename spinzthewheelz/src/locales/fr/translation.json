@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "SpinzTheWheelz",
+    "heading": "Roue Décisionnelle Oui/Non - Obtenez des Décisions Aléatoires",
+    "description": "Décidez oui ou non en faisant tourner la roue. Obtenez des réponses aléatoires oui ou non à vos questions, surmontez la paralysie décisionnelle et faites des choix facilement."
+  },
+  "wheel": {
+    "spin": "TOURNER",
+    "spinning": "ROTATION...",
+    "lastResult": "Dernier résultat :",
+    "mobileInstructions": "Glissez ou touchez la roue pour la faire tourner"
+  },
+  "options": {
+    "yes": "OUI",
+    "no": "NON",
+    "maybe": "PEUT-ÊTRE"
+  },
+  "inputs": {
+    "title": "ENTRÉES",
+    "mode": "Mode",
+    "yesNo": "Oui ou Non",
+    "yesNoMaybe": "Oui, Non ou Peut-être",
+    "numSets": "Nombre d'Ensembles"
+  },
+  "results": {
+    "reset": "Réinitialiser les Résultats",
+    "share": "Partager les Résultats",
+    "viewAll": "Voir Tous les Résultats",
+    "hideAll": "Masquer les Résultats",
+    "clearAll": "Effacer Tous les Résultats",
+    "history": "Historique des Résultats",
+    "time": "Heure",
+    "result": "Résultat",
+    "noResults": "Pas encore de résultats. Faites tourner la roue pour commencer !"
+  },
+  "controls": {
+    "showInputs": "Afficher les Entrées",
+    "hideInputs": "Masquer les Entrées",
+    "customize": "Personnaliser les Couleurs",
+    "fullScreen": "Plein Écran",
+    "exitFullScreen": "Quitter le Plein Écran",
+    "sound": "Effets Sonores",
+    "confetti": "Effets de Confettis",
+    "close": "Fermer"
+  },
+  "guide": {
+    "title": "Guide de la Roue Oui/Non",
+    "readFull": "Lire le Guide Complet",
+    "showLess": "Afficher Moins",
+    "preview": "Découvrez comment prendre de meilleures décisions avec notre Roue Oui/Non. Apprenez des techniques pour surmonter la paralysie décisionnelle, comprenez quand les choix aléatoires sont appropriés et tirez le meilleur parti de cet outil décisionnel puissant.",
+    "readMore": "Lire le guide complet →"
+  },
+  "share": {
+    "title": "Partagez Vos Résultats",
+    "link": "Lien de Partage",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "via": "Partager via :",
+    "noResults": "Pas encore de résultats. Faites tourner la roue pour obtenir des résultats que vous pourrez partager !"
+  },
+  "colorPicker": {
+    "title": "Personnaliser les Couleurs de la Roue",
+    "colorCode": "Code couleur",
+    "reset": "Réinitialiser",
+    "apply": "Appliquer les Couleurs",
+    "options": {
+      "yes": "OUI",
+      "no": "NON",
+      "maybe1": "PEUT-ÊTRE 1",
+      "maybe2": "PEUT-ÊTRE 2",
+      "center": "CENTRE",
+      "arrow": "FLÈCHE"
+    }
+  },
+  "settings": {
+    "title": "Paramètres de la Roue",
+    "sound": "Effets Sonores",
+    "confetti": "Effets de Confettis"
+  },
+  "footer": {
+    "about": "La roue décisionnelle oui/non ultime pour vous aider à prendre des décisions aléatoires rapidement et facilement",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "contact": "Contact",
+    "copyright": "© {{year}} SpinzTheWheelz. Tous droits réservés."
+  },
+  "meta": {
+    "language": "Français",
+    "direction": "ltr"
+  }
+}
